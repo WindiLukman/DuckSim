@@ -27,5 +27,11 @@ public class Main {
         pekinDuck.performFly();
         pekinDuck.performQuack();
         pekinDuck.swim();
+
+        WoodDuck woodDuck = new WoodDuck();
+        woodDuck.display();
+        woodDuck.performFly();
+        woodDuck.performQuack();
+        woodDuck.swim();
     }
 }
